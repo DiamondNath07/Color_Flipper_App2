@@ -68,3 +68,47 @@ a {
 li {
   margin: 0 40px;
 }
+
+main {
+  text-align: center;
+  margin-top: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.bg-text {
+  background: #000;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #f4f4f4;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 24px;
+  border: none;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.5s ease-in-out;
+  background: #000;
+  color: #f4f4f4;
+}
